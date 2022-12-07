@@ -21,9 +21,8 @@
 <br>
 <br>
 
-## 3단계 : [Phthon OpenCV를 이용한 개체 인식 및 도형 검출]()
+## 3단계 : [Python OpenCV를 이용한 개체 인식 및 도형 검출]()
 
 ![03 OpenCV](https://user-images.githubusercontent.com/84276596/206180589-5fb7a242-e7cb-4146-8321-905bef913098.png)
 
 - 특정 이미지에서 점,선,삼각형,사각형 등의  각종 도형들을 검출하기 위해서 Python Open CV를 사용한다. Open CV를 통해 이미지를 불러오고 외곽선을 검출하여 꼭지점을 구한 후, 꼭짓점 개수를 통해 어떤 도형인지 식별한다.
-
