@@ -12,7 +12,7 @@
 <br>
 <br>
 
-## 2단계 : [광 문자 인식(OCR)]()
+## 2단계 : [광 문자 인식(OCR)](ocr-text-detection.ipynb)
 
 ![02 OCR](https://user-images.githubusercontent.com/84276596/206180581-9788d6d1-0db3-4040-bef7-315629d7dbc3.png)
 
