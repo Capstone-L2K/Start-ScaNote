@@ -116,7 +116,11 @@ for cnt in contours:
 
 : 검출된 컨투어를 직선으로 근사화 시킵니다. 이를 위해 우선 for문을 사용하여 컨투어리스트에서 컨투어를 하나씩 꺼냅니다. `approxPolyDP` 함수를 사용하여 컨투어를 직선으로 근사화하고, 직선으로 근사화된 컨투어를 입력이미지에 그려줍니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cce5e756-5989-4a49-9df5-a0e2f16d503c/Untitled.png)
+
+**[결과]**
+
+: 도형 주변에 녹색선(컨투어)이 그려집니다.
+![image](https://user-images.githubusercontent.com/86418674/206462722-eda202c7-5dc7-4667-bbe9-38c6da295482.png)
 
 - 라벨링
 
@@ -137,19 +141,16 @@ def setLabel(image, str, contour):
 
 :  도형이 잘 구별되었는지 확인하기위해서 컨투어 영역내에 텍스트를 출력하는 setLabel 함수를 생성합니다. `cv.boundingRect` 를 통해 주어진 문자열 외곽을 둘러쌀 수 있는 박스의 너비와 높이를 계산하고 컨투어 외곽을 둘러싸는 박스의 정 중앙에 텍스트와 텍스트 박스를 출력합니다.
 
-<aside>
+
 📌 **cv2.boundingRect**
 : contour에 외접하는 똑바로 세워진 사각형을 얻기 위해 cv2.boundingRect() 함수를 이용합니다. cv2.boundingRect() 함수는 인자로 받은 contour에 외접하고 똑바로 세워진 직사각형의 좌상단 꼭짓점 좌표(x,y)와 가로 세로 폭을 리턴합니다. 
 
+```python
 x,y,w,h = cv2.boundingRect(cnt)
 cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,255),3)
+```
 
-</aside>
 
-**[결과]**
-
-: 도형 주변에 녹색선(컨투어)이 그려집니다.
-![image](https://user-images.githubusercontent.com/86418674/206462722-eda202c7-5dc7-4667-bbe9-38c6da295482.png)
 
 ```python
 for cont in contours:
