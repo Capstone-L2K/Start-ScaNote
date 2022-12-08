@@ -21,7 +21,7 @@
 <br>
 <br>
 
-## 3단계 : [Python OpenCV를 이용한 개체 인식 및 도형 검출]()
+## 3단계 : [Python OpenCV를 이용한 개체 인식 및 도형 검출](https://github.com/Capstone-L2K/Start-ScaNote/tree/main/Python%20OpenCV%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B0%9C%EC%B2%B4%20%EC%9D%B8%EC%8B%9D%20%EB%B0%8F%20%EB%8F%84%ED%98%95%20%EA%B2%80%EC%B6%9C)
 
 ![03 OpenCV](https://user-images.githubusercontent.com/84276596/206180589-5fb7a242-e7cb-4146-8321-905bef913098.png)
 
